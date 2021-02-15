@@ -8,6 +8,6 @@ var ansi = require('ansi')
         a+="*";
         console.log(a);
     };
-    console.log(a);
-
     cursor.reset();
+
+   
