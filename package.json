@@ -4,8 +4,10 @@
   "description": "",
   "main": "beginNode.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node beginNode"
+    "start": "node beginNode",
+    "ansi": "node ansi",
+    "stairs": "node stairs",
+    "homeworkAPI": "node homeworkAPI"
   },
   "repository": {
     "type": "git",

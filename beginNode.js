@@ -1,3 +1,4 @@
-let a = 11;
-let b = 20;
-console.log(Math.pow(a,b));
+let a = Math.random()*10;
+let b = Math.random()*10;
+const result = Math.pow(a,b);
+console.log(result);
