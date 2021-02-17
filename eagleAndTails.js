@@ -17,9 +17,7 @@ rl.question('Do you want to play а game "eagle or tails"? If yes enter 1, if no
     console.log('Enter the number: 1 = eagle, 2 = tails!');
     rl.on('line', function (cmd) {
         const gameNumber = Math.random()*10;
-        if(gameNumber) {
-            quantityGame++;
-        };
+        quantityGame++;
         let eagleOrTails;
         if (gameNumber < 5 ) {
             eagleOrTails = 1;    
