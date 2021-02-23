@@ -4,10 +4,7 @@
   "description": "",
   "main": "beginNode.js",
   "scripts": {
-    "start": "node beginNode",
-    "ansi": "node ansi",
-    "stairs": "node stairs",
-    "homeworkAPI": "node homeworkAPI"
+    "start": "node newsProgram"
   },
   "repository": {
     "type": "git",
@@ -20,6 +17,8 @@
   },
   "homepage": "https://github.com/Vurda-Burda/Node#readme",
   "dependencies": {
-    "ansi": "^0.3.1"
+    "ansi": "^0.3.1",
+    "cheerio": "^1.0.0-rc.5",
+    "request": "^2.88.2"
   }
 }
