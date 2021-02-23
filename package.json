@@ -1,0 +1,24 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "beginNode.js",
+  "scripts": {
+    "start": "node newsProgram"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vurda-Burda/Node.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vurda-Burda/Node/issues"
+  },
+  "homepage": "https://github.com/Vurda-Burda/Node#readme",
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "cheerio": "^1.0.0-rc.5",
+    "request": "^2.88.2"
+  }
+}
