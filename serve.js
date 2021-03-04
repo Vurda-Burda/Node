@@ -54,3 +54,5 @@ app.get('/news', function (req, res) {
 // }); 
 
 app.listen(8080, () => console.log("Server run: "+"http://localhost:8080"));
+
+// intermediate option
