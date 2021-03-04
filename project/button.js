@@ -1,17 +1,23 @@
+let button = document.querySelector(".getNewNews");
+
+let newNews;
+
 function getCards() {
-    return fetch("http://localhost:8080/newsProgram.js")
-    .then(response => {
-      if (!response.ok) {      
-        throw response;
-      }
-      return response.json();    
-    })  
+    return fetch("/news")
+    .then((response) => {
+      return response.text();
+    })
+    .then((data) => {
+      newNews =data;
+      console.log(newNews);
+    });
   };
-  console.log(getCards());
+getCards();
+
+
+ button.addEventListener("click", () => {
+  let newDivBlock = `<div>${newNews}</div>`;
+  button.insertAdjacentHTML("afterend", newDivBlock);
+  });
   
-
-
-
-
-
 
